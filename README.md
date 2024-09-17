@@ -1,6 +1,6 @@
-# ColdEmail_GenLlama # (ColdEmail_Generator Using LLaMA 3.1)
+# 📧 ColdMail_GenLlama # (ColdMail_Generator Using LLaMA 3.1)
 
-This repository contains a project that generates personalized cold emails using the LLaMA 3.1 language model. It allows users to input a brief description of their target audience and the desired tone, and it outputs high-quality cold emails tailored to specific needs.
+Cold email generator for services company using groq, langchain and streamlit. It allows users to input the URL of a company's careers page. The tool then extracts job listings from that page and generates personalized cold emails. These emails include relevant portfolio links sourced from a vector database, based on the specific job descriptions.
 
 ## Features
 
@@ -15,17 +15,13 @@ To use this project, ensure you have the following dependencies installed:
 
 - Python 3.8+
 - [LLaMA 3.1 model](https://github.com/facebookresearch/llama)
-- PyTorch
+- PyCharm
 - Transformers
 - Flask (if running a web application)
 - OpenAI’s GPT-like APIs (if integrating multiple models)
-- Other necessary libraries from `requirements.txt`
+  
 
-## Installation
+## ScreenShots
 
-1. Clone the repository:
 
-   ```bash
-   git clone https://github.com/your-username/ColdEmail_Generator.git
-   cd ColdEmail_Generator
-
+![Screenshot 2024-09-17 171247](https://github.com/user-attachments/assets/ee891cb4-7ace-4d9b-b96e-525c7bdc7e6f)
